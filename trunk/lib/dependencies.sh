@@ -1,0 +1,2 @@
+mvn install:install-file -Dfile=lpsolve55j.jar -DgroupId=lpsolve -DartifactId=lpsolve -Dversion=5.5.0.15 -Dpackaging=jar
+mvn install:install-file -Dfile=OpenTS.jar -DgroupId=org.coinor -DartifactId=opents -Dversion=1.0-exp10 -Dpackaging=jar
