@@ -20,15 +20,15 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
-    <!--scm>
-        <connection>scm:svn:http://n-puzzle.googlecode.com/svn/trunk/</connection>
-        <developerConnection>scm:svn:https://n-puzzle.googlecode.com/svn/trunk/</developerConnection>
-        <url>http://n-puzzle.googlecode.com/svn/trunk/</url>
+    <scm>
+        <connection>scm:svn:http://routingways.googlecode.com/svn/trunk/</connection>
+        <developerConnection>scm:svn:https://routingways.googlecode.com/svn/trunk/</developerConnection>
+        <url>http://routingways.googlecode.com/svn/trunk/</url>
     </scm>
     <issueManagement>
         <system>google</system>
-        <url>http://code.google.com/p/n-puzzle/issues/list</url>
-    </issueManagement-->
+        <url>http://code.google.com/p/routingways/issues/list</url>
+    </issueManagement>
     <dependencyManagement>
         <dependencies>
             <dependency>
