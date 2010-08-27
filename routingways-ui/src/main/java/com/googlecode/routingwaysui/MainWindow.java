@@ -126,15 +126,15 @@ public class MainWindow extends javax.swing.JFrame implements Aparencia {
 
         jPanel3.setLayout(new java.awt.BorderLayout());
 
-        jLabel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Pontos"));
+        jLabel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Points"));
         jLabel2.setPreferredSize(new java.awt.Dimension(100, 46));
         jPanel2.add(jLabel2);
 
-        jLabel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Distancia"));
+        jLabel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Distance"));
         jLabel3.setPreferredSize(new java.awt.Dimension(100, 46));
         jPanel2.add(jLabel3);
 
-        jLabel4.setBorder(javax.swing.BorderFactory.createTitledBorder("Milisegundos"));
+        jLabel4.setBorder(javax.swing.BorderFactory.createTitledBorder("Milliseconds"));
         jLabel4.setPreferredSize(new java.awt.Dimension(100, 46));
         jPanel2.add(jLabel4);
 
@@ -234,7 +234,7 @@ public class MainWindow extends javax.swing.JFrame implements Aparencia {
                     .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
 
-        jCheckBox1.setText("Mapas");
+        jCheckBox1.setText("Maps");
         jCheckBox1.addItemListener(new java.awt.event.ItemListener() {
             public void itemStateChanged(java.awt.event.ItemEvent evt) {
                 jCheckBox1ItemStateChanged(evt);
