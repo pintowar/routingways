@@ -1,0 +1,1 @@
+java -jar routingways.one-jar.jar 
