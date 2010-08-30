@@ -525,11 +525,7 @@ public class MainWindow extends javax.swing.JFrame implements Aparencia {
         jProgressBar1.setVisible(false);
         jSlider1.setEnabled(true);
         jLabel2.setText(String.valueOf(qtpts));
-        /*if (plan instanceof PlanoPadrao) {
-            jLabel3.setText(Formatter.formataNumero(route.distanciaTotal()));
-        } else {
-            jLabel3.setText(Formatter.formataNumero(route.distanciaTotal().multiply(BigDecimal.valueOf(111.133))));
-        }*/
+        jLabel3.setText(String.valueOf(plan.realDistance(route.totalDistance())));
         jLabel4.setText(String.valueOf(milisecs));
         jMenuItem1.setEnabled(false);
         jMenuItem2.setEnabled(false);

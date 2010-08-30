@@ -305,4 +305,9 @@ public class DefaultPlan extends JPanel implements Plan {
 
         }
     };
+
+    @Override
+    public double realDistance(double distance) {
+        return 1 * distance;
+    }
 }
