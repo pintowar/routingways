@@ -342,4 +342,9 @@ public class MapPlan extends JXMapKit implements Plan {
         point.setLocation(p2.getX(), p2.getY());
         return point;
     }
+
+    @Override
+    public double realDistance(double distance) {
+        return 111.133 * distance;
+    }
 }

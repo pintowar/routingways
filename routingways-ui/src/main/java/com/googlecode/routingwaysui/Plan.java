@@ -48,4 +48,6 @@ public interface Plan {
     Point getFirst();
 
     Set<Point> getPoints();
+
+    double realDistance(double distance);
 }
