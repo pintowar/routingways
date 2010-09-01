@@ -90,6 +90,14 @@ public class SimplexSolver extends BaseSolver {
             String message = ResourceBundle.getBundle("messages").getString("lpsolve.problema");
             Logger.getLogger(SimplexSolver.class.getName()).log(Level.SEVERE, null, ex);
             throw new OptmizeException(message, ex);
+        } catch (UnsatisfiedLinkError error) {
+            String message = ResourceBundle.getBundle("messages").getString("lpsolve.problema");
+            Logger.getLogger(SimplexSolver.class.getName()).log(Level.SEVERE, null, error);
+            throw new OptmizeException(message, error);
+        } catch (NoClassDefFoundError error) {
+            String message = ResourceBundle.getBundle("messages").getString("lpsolve.problema");
+            Logger.getLogger(SimplexSolver.class.getName()).log(Level.SEVERE, null, error);
+            throw new OptmizeException(message, error);
         }
         return route;
     }

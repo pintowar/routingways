@@ -21,6 +21,8 @@ import com.googlecode.routingways.points.Route;
 import com.googlecode.routingways.points.Segment;
 import com.googlecode.routingways.solver.BaseSolver;
 import com.googlecode.routingways.solver.OptmizeException;
+import java.util.Arrays;
+import java.util.Collections;
 import org.coinor.opents.BestEverAspirationCriteria;
 import org.coinor.opents.MoveManager;
 import org.coinor.opents.ObjectiveFunction;
@@ -35,8 +37,8 @@ import org.coinor.opents.TabuSearch;
  */
 public class TabuSolver extends BaseSolver {
 
-    @Override
     public Route optmizeRoute(Point first, Point last, Point... others) throws OptmizeException {
+        Collections.shuffle(Arrays.asList(others));
         Point[] aux = new Point[others.length + 2];
         aux[0] = first;
         aux[aux.length - 1] = last;
